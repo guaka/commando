@@ -24,6 +24,12 @@ If you're new to Composer...
  - [Download and build Composer](http://getcomposer.org/download/)
  - Make it [globally accessible](http://getcomposer.org/doc/00-intro.md#globally)
  - `cd` to your the directory where you'll be writing your Commando script and run `composer install`
+ - The above lines need some more brackets, your `composer.json` should look something like this:
+
+    {
+        "require": { "nategood/commando": "*" }
+    }
+
 
 *Currently installing via Composer is the only supported option.*
 
